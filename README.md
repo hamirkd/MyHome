@@ -8,13 +8,17 @@ git clone https://github.com/hamirkd/MyHouse.git
 ouvrir android studio et importer le projet via l'IDE
 
 # Gestion des branches
+# Pour afficher la liste des branches
+
+git branch
+
 # Pour créer une branche (NouvelleBranche) à partir de master
 
 git checkout master
 git branch NouvelleBranche
 git checkout NouvelleBranche
 
-#Pour faire une mise à jour sur la branche distante nouvellement créée
+# Pour faire une mise à jour sur la branche distante nouvellement créée
 git add .
 ou
 git add -A
